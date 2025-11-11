@@ -23,7 +23,7 @@ const Index = () => {
       <main className="relative z-10 max-w-4xl mx-auto px-8 text-center">
         {/* Main Heading */}
         <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6 tracking-tight leading-none">
-          INNOVATION NEVER SLEEPS
+          BUILT FOR WHAT'S NEXT
         </h1>
 
         {/* Subtitle */}
