@@ -21,7 +21,7 @@ const Index = () => {
         </div>
 
         {/* Main Heading */}
-        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight leading-none">
+        <h1 className="text-xs md:text-sm lg:text-lg font-bold mb-6 tracking-tight leading-none">
           PROJECT<br />BRIEF DECK
         </h1>
 
