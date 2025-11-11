@@ -1,6 +1,6 @@
 import GeometricAccent from "@/components/GeometricAccent";
 import TriangleAccent from "@/components/TriangleAccent";
-import logo from "@/assets/logo.jpg";
+import logo from "@/assets/cambrena-logo.svg";
 
 const Index = () => {
   return (
@@ -15,8 +15,8 @@ const Index = () => {
         <div className="mb-12 flex justify-center">
           <img 
             src={logo} 
-            alt="Company Logo" 
-            className="h-16 object-contain filter contrast-125"
+            alt="Cambrena Logo" 
+            className="h-20 object-contain"
           />
         </div>
 
