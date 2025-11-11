@@ -14,7 +14,6 @@ const Index = () => {
       />
       {/* Geometric Accents */}
       <GeometricAccent />
-      <TriangleAccent className="bottom-12 left-12 text-foreground opacity-40" />
       
       {/* Logo */}
       <div className="absolute top-8 left-8">
