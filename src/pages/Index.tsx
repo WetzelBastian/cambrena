@@ -1,12 +1,60 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import GeometricAccent from "@/components/GeometricAccent";
+import TriangleAccent from "@/components/TriangleAccent";
+import logo from "@/assets/logo.jpg";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="h-screen w-screen overflow-hidden bg-background relative flex items-center justify-center">
+      {/* Geometric Accents */}
+      <GeometricAccent />
+      <TriangleAccent className="bottom-12 left-12 text-foreground opacity-40" />
+      
+      {/* Main Content */}
+      <main className="relative z-10 max-w-4xl mx-auto px-8 text-center">
+        {/* Logo */}
+        <div className="mb-12 flex justify-center">
+          <img 
+            src={logo} 
+            alt="Company Logo" 
+            className="h-16 object-contain filter contrast-125"
+          />
+        </div>
+
+        {/* Main Heading */}
+        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight leading-none">
+          PROJECT<br />BRIEF DECK
+        </h1>
+
+        {/* Subtitle */}
+        <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto tracking-wide">
+          Add a subtitle or the company tagline here
+        </p>
+
+        {/* Info Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left max-w-3xl mx-auto mt-16">
+          <div className="space-y-1">
+            <p className="text-xs font-bold tracking-widest uppercase">Name of Project:</p>
+            <p className="text-sm">Write here</p>
+          </div>
+          <div className="space-y-1">
+            <p className="text-xs font-bold tracking-widest uppercase">Presented By:</p>
+            <p className="text-sm">Write here</p>
+          </div>
+          <div className="space-y-1">
+            <p className="text-xs font-bold tracking-widest uppercase">Presented To:</p>
+            <p className="text-sm">Write here</p>
+          </div>
+        </div>
+
+        {/* Footer Note */}
+        <div className="absolute bottom-8 left-8 text-xs tracking-wider opacity-60">
+          <p>© This presentation has live captioning</p>
+        </div>
+        
+        <div className="absolute bottom-8 right-8 text-xs tracking-wider opacity-60">
+          <p>MM/DD/YYYY</p>
+        </div>
+      </main>
     </div>
   );
 };
