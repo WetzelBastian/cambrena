@@ -1,6 +1,7 @@
 import GeometricAccent from "@/components/GeometricAccent";
 import TriangleAccent from "@/components/TriangleAccent";
 import logo from "@/assets/cambrena-logo.svg";
+import { Linkedin } from "lucide-react";
 
 const Index = () => {
   return (
@@ -32,13 +33,23 @@ const Index = () => {
       </main>
 
       {/* Footer Links */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-8 text-xs tracking-wider">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-8 text-xs tracking-wider">
         <a href="#" className="hover:opacity-60 transition-opacity">
           Imprint
         </a>
         <span>|</span>
         <a href="#" className="hover:opacity-60 transition-opacity">
           Privacy Policy
+        </a>
+        <span>|</span>
+        <a 
+          href="https://www.linkedin.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="hover:opacity-60 transition-opacity"
+          aria-label="LinkedIn"
+        >
+          <Linkedin size={16} />
         </a>
       </div>
     </div>
