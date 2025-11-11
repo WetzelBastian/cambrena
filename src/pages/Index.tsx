@@ -29,15 +29,6 @@ const Index = () => {
         <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto tracking-wide">
           Add a subtitle or the company tagline here
         </p>
-
-        {/* Footer Note */}
-        <div className="absolute bottom-8 left-8 text-xs tracking-wider opacity-60">
-          <p>© This presentation has live captioning</p>
-        </div>
-        
-        <div className="absolute bottom-8 right-8 text-xs tracking-wider opacity-60">
-          <p>MM/DD/YYYY</p>
-        </div>
       </main>
     </div>
   );
