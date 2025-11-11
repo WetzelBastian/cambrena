@@ -1,6 +1,6 @@
 const GeometricAccent = () => {
   return (
-    <div className="absolute top-8 right-8 w-32 h-32 animate-rotate-slow opacity-80">
+    <div className="absolute top-2 right-8 w-32 h-32 animate-rotate-slow opacity-80">
       <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
         {Array.from({ length: 24 }).map((_, i) => {
           const angle = (i * 360) / 24;
