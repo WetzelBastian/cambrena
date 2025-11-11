@@ -1,11 +1,17 @@
 import GeometricAccent from "@/components/GeometricAccent";
 import TriangleAccent from "@/components/TriangleAccent";
 import logo from "@/assets/cambrena-logo.svg";
+import backgroundImage from "@/assets/background.jpg";
 import { Linkedin } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="h-screen w-screen overflow-hidden bg-background relative flex items-center justify-center">
+    <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      />
       {/* Geometric Accents */}
       <GeometricAccent />
       <TriangleAccent className="bottom-12 left-12 text-foreground opacity-40" />
