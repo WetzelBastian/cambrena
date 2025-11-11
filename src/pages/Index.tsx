@@ -9,17 +9,17 @@ const Index = () => {
       <GeometricAccent />
       <TriangleAccent className="bottom-12 left-12 text-foreground opacity-40" />
       
+      {/* Logo */}
+      <div className="absolute top-8 left-8">
+        <img 
+          src={logo} 
+          alt="Cambrena Logo" 
+          className="h-40 object-contain"
+        />
+      </div>
+
       {/* Main Content */}
       <main className="relative z-10 max-w-4xl mx-auto px-8 text-center">
-        {/* Logo */}
-        <div className="mb-12 flex justify-center">
-          <img 
-            src={logo} 
-            alt="Cambrena Logo" 
-            className="h-40 object-contain"
-          />
-        </div>
-
         {/* Main Heading */}
         <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6 tracking-tight leading-none">
           PROJECT<br />BRIEF DECK
