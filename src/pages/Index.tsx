@@ -30,6 +30,17 @@ const Index = () => {
           Add a subtitle or the company tagline here
         </p>
       </main>
+
+      {/* Footer Links */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-8 text-xs tracking-wider">
+        <a href="#" className="hover:opacity-60 transition-opacity">
+          Imprint
+        </a>
+        <span>|</span>
+        <a href="#" className="hover:opacity-60 transition-opacity">
+          Privacy Policy
+        </a>
+      </div>
     </div>
   );
 };
