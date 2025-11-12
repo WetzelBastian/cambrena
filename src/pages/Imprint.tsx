@@ -16,13 +16,13 @@ const Imprint = () => {
       <GeometricAccent />
       
       {/* Logo */}
-      <div className="absolute top-12 left-16">
+      <Link to="/" className="absolute top-12 left-16 hover:opacity-80 transition-opacity">
         <img 
           src={logo} 
           alt="Cambrena Logo" 
           className="h-24 object-contain"
         />
-      </div>
+      </Link>
 
       {/* Main Content */}
       <main className="relative z-10 max-w-4xl mx-auto px-8 text-center">
