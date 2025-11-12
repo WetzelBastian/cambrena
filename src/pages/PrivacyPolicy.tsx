@@ -1,5 +1,5 @@
 import GeometricAccent from "@/components/GeometricAccent";
-import logo from "@/assets/cambrena-logo.gif";
+import logo from "@/assets/cambrena-logo.svg";
 import backgroundImage from "@/assets/background.jpg";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
