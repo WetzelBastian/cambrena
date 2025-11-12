@@ -16,7 +16,7 @@ const Index = () => {
       <GeometricAccent />
       
       {/* Logo */}
-      <div className="absolute top-10 left-8">
+      <div className="absolute top-12 left-16">
         <img 
           src={logo} 
           alt="Cambrena Logo" 
