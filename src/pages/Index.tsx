@@ -3,6 +3,7 @@ import TriangleAccent from "@/components/TriangleAccent";
 import logo from "@/assets/cambrena-logo.svg";
 import backgroundImage from "@/assets/background.jpg";
 import { Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -39,13 +40,13 @@ const Index = () => {
 
       {/* Footer Links */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-8 text-xs tracking-wider">
-        <a href="#" className="hover:opacity-60 transition-opacity">
+        <Link to="/imprint" className="hover:opacity-60 transition-opacity">
           Imprint
-        </a>
+        </Link>
         <span>|</span>
-        <a href="#" className="hover:opacity-60 transition-opacity">
+        <Link to="/privacy-policy" className="hover:opacity-60 transition-opacity">
           Privacy Policy
-        </a>
+        </Link>
         <span>|</span>
         <a 
           href="https://www.linkedin.com" 
