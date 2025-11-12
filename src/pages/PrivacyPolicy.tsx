@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
       </div>
 
       {/* Main Content */}
-      <main className="relative z-10 max-w-4xl mx-auto px-8 h-[calc(100vh-200px)] overflow-y-auto">
+      <main className="relative z-10 max-w-4xl mx-auto px-8 h-[calc(100vh-400px)] overflow-y-auto">
         <div className="text-left space-y-6 pb-8">
           <h1 className="text-2xl font-bold mb-6 text-center">Privacy Policy</h1>
           
