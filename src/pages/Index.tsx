@@ -33,7 +33,7 @@ const Index = () => {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto tracking-wide">
-          We invest at the earliest stages of a company's growth, using proprietary capital that isn't bound by traditional fund lifecycles
+          We invest at the earliest stages of a company's growth, using capital that isn't bound by traditional fund lifecycles
         </p>
       </main>
 
