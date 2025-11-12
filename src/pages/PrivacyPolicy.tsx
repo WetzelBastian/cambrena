@@ -134,7 +134,7 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-lg font-semibold mb-2">15. Changes to This Privacy Policy</h2>
-            <p className="text-sm">This privacy policy may be updated from time to time. We will post the revised version on our website and update the "Effective Date" at the top of the page. We encourage you to review this policy periodically.</p>
+            <p className="text-sm">This privacy policy may be updated from time to time. We will post the revised version on our website. We encourage you to review this policy periodically.</p>
           </section>
         </div>
       </main>
