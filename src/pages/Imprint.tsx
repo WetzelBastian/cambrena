@@ -1,5 +1,5 @@
 import GeometricAccent from "@/components/GeometricAccent";
-import logo from "@/assets/cambrena-logo.svg";
+import logo from "@/assets/cambrena-logo.mp4";
 import backgroundImage from "@/assets/background.jpg";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -17,10 +17,13 @@ const Imprint = () => {
       
       {/* Logo */}
       <Link to="/" className="absolute top-12 left-16 hover:opacity-80 transition-opacity">
-        <img 
+        <video 
           src={logo} 
-          alt="Cambrena Logo" 
           className="h-24 object-contain"
+          autoPlay
+          loop
+          muted
+          playsInline
         />
       </Link>
 
