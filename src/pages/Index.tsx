@@ -1,6 +1,6 @@
 import GeometricAccent from "@/components/GeometricAccent";
 import TriangleAccent from "@/components/TriangleAccent";
-import logo from "@/assets/cambrena-logo.gif";
+import Logo from "@/components/Logo";
 import backgroundImage from "@/assets/background.jpg";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -18,11 +18,7 @@ const Index = () => {
       
       {/* Logo */}
       <div className="absolute top-12 left-16">
-        <img 
-          src={logo} 
-          alt="Cambrena Logo"
-          className="h-24 object-contain"
-        />
+        <Logo />
       </div>
 
       {/* Main Content */}
