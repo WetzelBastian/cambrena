@@ -20,7 +20,7 @@ const Index = () => {
         <img 
           src={logo} 
           alt="Cambrena Logo" 
-          className="h-32 object-contain"
+          className="h-24 object-contain"
         />
       </div>
 
