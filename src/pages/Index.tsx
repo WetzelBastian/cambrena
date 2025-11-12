@@ -13,7 +13,7 @@ const Index = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLogo(logoSvg);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
