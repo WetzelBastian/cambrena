@@ -1,23 +1,11 @@
-import { useState, useEffect } from "react";
 import GeometricAccent from "@/components/GeometricAccent";
 import TriangleAccent from "@/components/TriangleAccent";
-import logoGif from "@/assets/cambrena-logo.gif";
-import logoSvg from "@/assets/cambrena-logo.svg";
+import logo from "@/assets/cambrena-logo.gif";
 import backgroundImage from "@/assets/background.jpg";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
-  const [logo, setLogo] = useState(logoGif);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLogo(logoSvg);
-    }, 1200);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center">
       {/* Background Image */}
