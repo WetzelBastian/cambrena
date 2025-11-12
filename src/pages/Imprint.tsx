@@ -26,14 +26,14 @@ const Imprint = () => {
 
       {/* Main Content */}
       <main className="relative z-10 max-w-4xl mx-auto px-8 text-center">
-        <h1 className="text-4xl font-bold mb-8">Imprint</h1>
-        <div className="space-y-4 text-lg">
+        <h1 className="text-2xl font-bold mb-6">Imprint</h1>
+        <div className="space-y-2 text-sm">
           <p>Cambrena AG</p>
           <p>Haldenstrasse 1</p>
           <p>6340 Baar</p>
           <p>Switzerland</p>
-          <p className="mt-6">UID: CHE-307.299.793</p>
-          <p className="mt-6">
+          <p className="mt-4">UID: CHE-307.299.793</p>
+          <p className="mt-4">
             <a href="mailto:hello@cambrena.net" className="hover:opacity-60 transition-opacity">
               hello@cambrena.net
             </a>

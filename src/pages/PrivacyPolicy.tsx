@@ -26,7 +26,7 @@ const PrivacyPolicy = () => {
 
       {/* Main Content */}
       <main className="relative z-10 max-w-4xl mx-auto px-8 text-center">
-        <h1 className="text-4xl font-bold mb-6">Privacy Policy</h1>
+        <h1 className="text-2xl font-bold mb-6">Privacy Policy</h1>
       </main>
 
       {/* Footer Links */}
