@@ -29,11 +29,6 @@ const Imprint = () => {
             </a>
           </p>
         </div>
-        <div className="mt-8 text-xs max-w-2xl mx-auto">
-          <p>
-            This website is for general information purposes only. It does not constitute investment advice or a recommendation or a solicitation to buy or sell any investment and should not be used in the evaluation of the merits of making any investment decision. It should not be relied upon for accounting, legal, tax advice, or investment recommendations.
-          </p>
-        </div>
       </main>
 
       {/* Footer Links */}
