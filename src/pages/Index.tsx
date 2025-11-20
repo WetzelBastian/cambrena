@@ -1,4 +1,5 @@
 import TriangleAccent from "@/components/TriangleAccent";
+import GeometricAccent from "@/components/GeometricAccent";
 import logo from "@/assets/cambrena-logo.gif";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -8,6 +9,9 @@ const Index = () => {
     <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center bg-background">
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/10 pointer-events-none" />
+      
+      {/* Geometric Accent */}
+      <GeometricAccent />
       
       {/* Logo */}
       <div className="absolute top-12 left-16">
