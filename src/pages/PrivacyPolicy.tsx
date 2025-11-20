@@ -1,4 +1,3 @@
-import GeometricAccent from "@/components/GeometricAccent";
 import logo from "@/assets/cambrena-logo.svg";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -6,9 +5,6 @@ import { Link } from "react-router-dom";
 const PrivacyPolicy = () => {
   return (
     <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center bg-background">
-      {/* Geometric Accents */}
-      <GeometricAccent />
-      
       {/* Logo */}
       <Link to="/" className="absolute top-12 left-16 hover:opacity-80 transition-opacity">
         <img 
