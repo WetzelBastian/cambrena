@@ -6,9 +6,6 @@ import { Link } from "react-router-dom";
 const Index = () => {
   return (
     <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center bg-background">
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/10 pointer-events-none" />
-      
       {/* Logo */}
       <div className="absolute top-12 left-16">
         <img 
@@ -30,15 +27,6 @@ const Index = () => {
           We invest at the earliest stages of a company's growth, using capital that isn't bound by traditional fund lifecycles
         </p>
       </main>
-
-      {/* Contact Section */}
-      <div className="absolute bottom-32 left-0 right-0">
-        <div className="w-full h-[1px] bg-border" />
-        <div className="flex justify-center px-8 py-2">
-          <p className="text-xs tracking-wider">Contact: hello@cambena.net</p>
-        </div>
-        <div className="w-full h-[1px] bg-border" />
-      </div>
 
       {/* Footer Links */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-8 text-xs tracking-wider">
