@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import TriangleAccent from "@/components/TriangleAccent";
 import logo from "@/assets/cambrena-logo.gif";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
