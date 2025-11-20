@@ -1,17 +1,11 @@
 import GeometricAccent from "@/components/GeometricAccent";
 import logo from "@/assets/cambrena-logo.svg";
-import backgroundImage from "@/assets/background.jpg";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      />
+    <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center bg-background">
       {/* Geometric Accents */}
       <GeometricAccent />
       
