@@ -1,4 +1,3 @@
-import GeometricAccent from "@/components/GeometricAccent";
 import TriangleAccent from "@/components/TriangleAccent";
 import logo from "@/assets/cambrena-logo.gif";
 import backgroundImage from "@/assets/background.jpg";
@@ -13,9 +12,6 @@ const Index = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       />
-      {/* Geometric Accents */}
-      <GeometricAccent />
-      
       {/* Logo */}
       <div className="absolute top-12 left-16">
         <img 
