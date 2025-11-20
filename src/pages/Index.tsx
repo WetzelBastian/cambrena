@@ -31,6 +31,15 @@ const Index = () => {
         </p>
       </main>
 
+      {/* Contact Section */}
+      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 w-full max-w-4xl px-8">
+        <div className="flex flex-col items-end gap-2">
+          <div className="w-full h-[1px] bg-border" />
+          <p className="text-xs tracking-wider">Contact: hello@cambena.net</p>
+          <div className="w-full h-[1px] bg-border" />
+        </div>
+      </div>
+
       {/* Footer Links */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-8 text-xs tracking-wider">
         <Link to="/imprint" className="hover:opacity-60 transition-opacity">
