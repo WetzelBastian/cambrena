@@ -9,17 +9,17 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Cambrena Corporate Design System */
-    --background: 36 17% 89%; /* Warm beige */
+    --background: 38 38% 94%; /* F6F2EB */
     --foreground: 0 0% 0%; /* Pure black */
 
-    --card: 36 17% 89%;
+    --card: 38 38% 94%;
     --card-foreground: 0 0% 0%;
 
-    --popover: 36 17% 89%;
+    --popover: 38 38% 94%;
     --popover-foreground: 0 0% 0%;
 
     --primary: 0 0% 0%; /* Black */
-    --primary-foreground: 36 17% 89%;
+    --primary-foreground: 38 38% 94%;
 
     --secondary: 36 20% 85%;
     --secondary-foreground: 0 0% 0%;
@@ -58,14 +58,14 @@ All colors MUST be HSL.
 
   .dark {
     /* Keep same design in dark mode */
-    --background: 36 17% 89%;
+    --background: 38 38% 94%;
     --foreground: 0 0% 0%;
-    --card: 36 17% 89%;
+    --card: 38 38% 94%;
     --card-foreground: 0 0% 0%;
-    --popover: 36 17% 89%;
+    --popover: 38 38% 94%;
     --popover-foreground: 0 0% 0%;
     --primary: 0 0% 0%;
-    --primary-foreground: 36 17% 89%;
+    --primary-foreground: 38 38% 94%;
     --secondary: 36 20% 85%;
     --secondary-foreground: 0 0% 0%;
     --muted: 36 15% 80%;
@@ -77,10 +77,10 @@ All colors MUST be HSL.
     --border: 0 0% 0%;
     --input: 36 20% 85%;
     --ring: 0 0% 0%;
-    --sidebar-background: 36 17% 89%;
+    --sidebar-background: 38 38% 94%;
     --sidebar-foreground: 0 0% 0%;
     --sidebar-primary: 0 0% 0%;
-    --sidebar-primary-foreground: 36 17% 89%;
+    --sidebar-primary-foreground: 38 38% 94%;
     --sidebar-accent: 36 20% 85%;
     --sidebar-accent-foreground: 0 0% 0%;
     --sidebar-border: 0 0% 0%;
