@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <div className="h-screen w-screen overflow-hidden relative flex items-center justify-center bg-background">
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-accent/30 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/10 pointer-events-none" />
       
       {/* Logo */}
       <div className="absolute top-12 left-16">
