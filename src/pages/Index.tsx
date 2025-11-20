@@ -32,9 +32,9 @@ const Index = () => {
       </main>
 
       {/* Contact Section */}
-      <div className="absolute bottom-20 left-0 right-0">
+      <div className="absolute bottom-24 left-0 right-0">
         <div className="w-full h-[1px] bg-border" />
-        <div className="flex justify-end px-8 py-2">
+        <div className="flex justify-center px-8 py-2">
           <p className="text-xs tracking-wider">Contact: hello@cambena.net</p>
         </div>
         <div className="w-full h-[1px] bg-border" />
