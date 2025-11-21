@@ -42,6 +42,13 @@ const Imprint = () => {
         </Link>
         <span>|</span>
         <a 
+          href="mailto:contact@cambrena.net" 
+          className="hover:opacity-60 transition-opacity"
+        >
+          contact@cambrena.net
+        </a>
+        <span>|</span>
+        <a 
           href="https://www.linkedin.com" 
           target="_blank" 
           rel="noopener noreferrer"
@@ -49,13 +56,6 @@ const Imprint = () => {
           aria-label="LinkedIn"
         >
           <Linkedin size={16} />
-        </a>
-        <span>|</span>
-        <a 
-          href="mailto:contact@cambrena.net" 
-          className="hover:opacity-60 transition-opacity"
-        >
-          contact@cambrena.net
         </a>
       </div>
     </div>
