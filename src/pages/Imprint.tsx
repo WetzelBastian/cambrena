@@ -24,8 +24,8 @@ const Imprint = () => {
           <p>Switzerland</p>
           <p className="mt-4">UID: CHE-307.299.793</p>
           <p className="mt-4">
-            <a href="mailto:hello@cambrena.net" className="hover:opacity-60 transition-opacity">
-              hello@cambrena.net
+            <a href="mailto:contact@cambrena.net" className="hover:opacity-60 transition-opacity">
+              contact@cambrena.net
             </a>
           </p>
         </div>
@@ -40,6 +40,13 @@ const Imprint = () => {
         <Link to="/privacy-policy" className="hover:opacity-60 transition-opacity">
           Privacy Policy
         </Link>
+        <span>|</span>
+        <a 
+          href="mailto:contact@cambrena.net" 
+          className="hover:opacity-60 transition-opacity"
+        >
+          contact@cambrena.net
+        </a>
         <span>|</span>
         <a 
           href="https://www.linkedin.com" 

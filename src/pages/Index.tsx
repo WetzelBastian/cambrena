@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import TriangleAccent from "@/components/TriangleAccent";
 import logo from "@/assets/cambrena-logo.gif";
 import { Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -61,6 +62,13 @@ const Index = () => {
         <Link to="/privacy-policy" className="hover:opacity-60 transition-opacity">
           Privacy Policy
         </Link>
+        <span>|</span>
+        <a 
+          href="mailto:contact@cambrena.net" 
+          className="hover:opacity-60 transition-opacity"
+        >
+          contact@cambrena.net
+        </a>
         <span>|</span>
         <a 
           href="https://www.linkedin.com" 
