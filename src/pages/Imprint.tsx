@@ -24,8 +24,8 @@ const Imprint = () => {
           <p>Switzerland</p>
           <p className="mt-4">UID: CHE-307.299.793</p>
           <p className="mt-4">
-            <a href="mailto:hello@cambrena.net" className="hover:opacity-60 transition-opacity">
-              hello@cambrena.net
+            <a href="mailto:contact@cambrena.net" className="hover:opacity-60 transition-opacity">
+              contact@cambrena.net
             </a>
           </p>
         </div>
