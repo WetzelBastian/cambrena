@@ -41,6 +41,13 @@ const PrivacyPolicy = () => {
         >
           <Linkedin size={16} />
         </a>
+        <span>|</span>
+        <a 
+          href="mailto:contact@cambrena.net" 
+          className="hover:opacity-60 transition-opacity"
+        >
+          contact@cambrena.net
+        </a>
       </div>
     </div>
   );
