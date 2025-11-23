@@ -49,7 +49,7 @@ const Imprint = () => {
         </a>
         <span>|</span>
         <a 
-          href="https://www.linkedin.com" 
+          href="https://www.linkedin.com/company/cambrena-capital/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="hover:opacity-60 transition-opacity"
