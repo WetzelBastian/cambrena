@@ -1,80 +1,69 @@
-# GitHub Pages Deployment Guide
+# GitHub Pages Deployment
 
-This repository is configured to automatically deploy to GitHub Pages. Follow these steps to enable it for your fork.
+This repository uses GitHub Actions for automatic deployment.
 
-## Quick Setup (One-Time Configuration)
+## Initial Setup (One-Time)
 
-### Step 1: Enable GitHub Pages
+### 1. Enable GitHub Pages
 
-1. Go to your repository settings: `https://github.com/CambrenaCapital/cambrena/settings/pages`
-2. Under **"Build and deployment"**:
-   - **Source**: Select `GitHub Actions`
-3. Save the settings
+1. Repository Settings → Pages
+2. Under "Build and deployment":
+   - **Source**: GitHub Actions
+3. Save
 
-### Step 2: Trigger the Deployment
+### 2. Configure Permissions
 
-The deployment will automatically trigger when you:
-- Push to the `main` branch
-- Manually trigger via Actions tab
+1. Settings → Actions → General
+2. Under "Workflow permissions":
+   - Select "Read and write permissions"
+   - Check "Allow GitHub Actions to create and approve pull requests"
+3. Save
 
-To manually trigger:
-1. Go to the **Actions** tab in your repository
-2. Click on **"Deploy to GitHub Pages"** workflow
-3. Click **"Run workflow"** → **"Run workflow"**
+## Usage
 
-### Step 3: Access Your Site
+### Automatic Deployment
 
-After the workflow completes (usually 1-2 minutes), your site will be available at:
+Every push to `main` triggers automatic deployment:
+- GitHub Actions builds the site
+- Deploys to GitHub Pages
+- Updates within 1-2 minutes
 
-**https://cambrenacapital.github.io/cambrena/**
+### Manual Deployment
+
+1. Actions tab
+2. Select "Deploy to GitHub Pages"
+3. Click "Run workflow"
+
+## Site URL
+
+https://cambrenacapital.github.io/cambrena/
 
 ## Troubleshooting
 
-### Site shows 404 or doesn't load
+### Site Shows 404
 
-1. **Check if GitHub Pages is enabled**:
-   - Go to Settings → Pages
-   - Ensure Source is set to "GitHub Actions"
+1. Verify Settings → Pages → Source is "GitHub Actions"
+2. Check Actions tab for successful workflow (green checkmark)
+3. Wait 2-3 minutes after first deployment
+4. Hard refresh: `Cmd+Shift+R` (Mac) or `Ctrl+Shift+R` (Windows)
 
-2. **Check if the workflow ran successfully**:
-   - Go to Actions tab
-   - Look for a successful green checkmark on the latest workflow run
-   - If there's a red X, click it to see the error
+### Workflow Fails
 
-3. **Verify the deployment**:
-   - Go to Settings → Pages
-   - You should see "Your site is live at https://cambrenacapital.github.io/cambrena/"
+1. Settings → Actions → General
+2. Ensure "Read and write permissions" is selected
+3. Re-run workflow from Actions tab
 
-4. **Clear browser cache**:
-   - Hard refresh with `Cmd+Shift+R` (Mac) or `Ctrl+Shift+R` (Windows)
+### Changes Not Appearing
 
-### Workflow fails to run
+1. Check Actions tab for completed workflow
+2. Hard refresh browser
+3. Clear cache if needed
 
-1. **Check repository permissions**:
-   - Go to Settings → Actions → General
-   - Under "Workflow permissions", ensure "Read and write permissions" is selected
-   - Check "Allow GitHub Actions to create and approve pull requests"
-   - Click Save
+## Local Testing
 
-2. **Re-run the workflow**:
-   - Go to Actions tab
-   - Click on the failed workflow
-   - Click "Re-run all jobs"
-
-## For Different Repository Names
-
-This configuration automatically detects your repository name and sets the correct base path. If you rename the repository:
-
-1. The workflow will automatically use the new name on the next deployment
-2. Your site URL will change to: `https://cambrenacapital.github.io/new-repo-name/`
-
-## Local Development
-
-To run locally:
+Test production build before deploying:
 
 ```bash
-npm install
-npm run dev
+npm run build
+npm run preview
 ```
-
-The site will be available at `http://localhost:8080`
