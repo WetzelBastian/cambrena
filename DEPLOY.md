@@ -2,6 +2,8 @@
 
 This repository uses GitHub Actions for automatic deployment.
 
+**Fork-friendly**: The deployment automatically detects your repository name, so forks work without any configuration changes!
+
 ## Initial Setup (One-Time)
 
 ### 1. Enable GitHub Pages
@@ -67,3 +69,32 @@ Test production build before deploying:
 npm run build
 npm run preview
 ```
+
+## Forking This Repository
+
+This repository is designed to be fork-friendly!
+
+### Steps to Deploy Your Fork:
+
+1. **Fork the repository** to your GitHub account
+
+2. **Enable GitHub Pages**:
+   - Go to your fork's Settings → Pages
+   - Set Source to "GitHub Actions"
+   - Save
+
+3. **Configure Permissions**:
+   - Settings → Actions → General
+   - Select "Read and write permissions"
+   - Check "Allow GitHub Actions to create and approve pull requests"
+   - Save
+
+4. **Push or trigger workflow**:
+   - Any push to main will deploy automatically
+   - Or manually trigger via Actions tab
+
+5. **Access your site**:
+   - Your site will be at: `https://yourusername.github.io/your-fork-name/`
+   - The base path automatically matches your repository name!
+
+No configuration changes needed - it just works!

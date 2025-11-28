@@ -47,7 +47,11 @@ Open http://localhost:8080
 
 Automatically deploys to GitHub Pages on push to `main` branch.
 
+**Fork-friendly**: This repository automatically detects the repository name, so forks work without any configuration changes. Just enable GitHub Pages and it deploys!
+
 For manual deployment, go to Actions → Deploy to GitHub Pages → Run workflow.
+
+See [DEPLOY.md](./DEPLOY.md) for detailed deployment instructions and forking guide.
 
 ## Project Structure
 

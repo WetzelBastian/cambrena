@@ -4,7 +4,9 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(() => ({
-  base: "/cambrena/",
+  // Automatically use repository name for GitHub Pages
+  // For local dev, defaults to "/"
+  base: process.env.REPO_NAME ? `/${process.env.REPO_NAME}/` : "/",
   server: {
     host: "::",
     port: 8080,
