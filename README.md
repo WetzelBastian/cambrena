@@ -62,6 +62,18 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### GitHub Pages (Recommended for Forks)
+
+This repository is configured for automatic GitHub Pages deployment. See [DEPLOY.md](./DEPLOY.md) for detailed instructions.
+
+**Quick Start:**
+1. Go to Settings → Pages in your repository
+2. Set Source to "GitHub Actions"
+3. Push to main branch or manually trigger the workflow
+4. Your site will be live at `https://yourusername.github.io/cambrena/`
+
+### Lovable
+
 Simply open [Lovable](https://lovable.dev/projects/f37d0d90-17aa-48c5-81f7-7c0fb653070a) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?

@@ -30,10 +30,22 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set base path
+        id: base-path
+        run: |
+          REPO_NAME="${{ github.event.repository.name }}"
+          OWNER_NAME="${{ github.repository_owner }}"
+          # If repo name matches username.github.io pattern, use root path
+          if [[ "$REPO_NAME" == "$OWNER_NAME.github.io" ]] || [[ "$REPO_NAME" == "${OWNER_NAME,,}.github.io" ]]; then
+            echo "path=/" >> $GITHUB_OUTPUT
+          else
+            echo "path=/$REPO_NAME/" >> $GITHUB_OUTPUT
+          fi
+
       - name: Build
         run: npm run build
         env:
-          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_BASE_PATH: ${{ steps.base-path.outputs.path }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
